@@ -1,0 +1,54 @@
+.tvstream__select {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    border: 2px solid transparent;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    background-color: rgba(2, 23, 63, .8);
+    color: white;
+    appearance: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.tvstream__select:hover {
+    border-color: #ffffff;
+}
+
+.tvstream__select:focus {
+    border-color: #ffffff;
+    transform: scale(0.97);
+}
+
+
+.tvstream__select option {
+    background-color: rgba(2, 23, 63, .8);
+    color: white;
+}
+
+.tvstream__filter {
+    position: relative;
+}
+
+.tvstream__select__icon {
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    transition: transform 0.3s ease;
+}
+
+.tvstream__select__icon__rotate {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+@media screen and (min-width: 960px) {
+    .tvstream__select {
+        min-width: 300px;
+        max-width: 300px;
+    }
+}

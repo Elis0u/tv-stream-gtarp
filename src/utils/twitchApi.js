@@ -1,5 +1,5 @@
-const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
-const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET
+const CLIENT_ID = import.meta.env.VITE_REACT_APP_CLIENT_ID
+const CLIENT_SECRET = import.meta.env.VITE_REACT_APP_CLIENT_SECRET
 
 export async function fetchAccessToken() {
     try {
@@ -22,8 +22,6 @@ export async function fetchAllStreamsGTA(accessToken, cursor = '') {
     let allStreams = []
     let hasNextPage = true
     const regex = /flashback|flash fa|flashfa/i
-
-    console.time('fetchStreamsTime')
 
     while (hasNextPage) {
         const response = await fetch(`https://api.twitch.tv/helix/streams?game_id=32982&language=fr&first=100&after=${cursor}`, {
@@ -53,8 +51,6 @@ export async function fetchAllStreamsGTA(accessToken, cursor = '') {
             hasNextPage = false
         }
     }
-
-    console.timeEnd('fetchStreamsTime')
 
     return allStreams
 }
