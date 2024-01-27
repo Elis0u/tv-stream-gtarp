@@ -1,0 +1,18 @@
+.tvstream__cgu {
+    width: 70%;
+    margin: 1.5rem auto;
+    font-family: Roboto, sans-serif;
+}
+
+.tvstream__cgu p {
+    line-height: 2.5rem;
+}
+
+.tvstream__back_button {
+    text-decoration: none;
+    color: rgba(2, 23, 63, 1);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: .6rem
+}

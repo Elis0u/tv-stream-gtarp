@@ -1,0 +1,23 @@
+.backToTopButton {
+    position: fixed;
+    bottom: 8rem;
+    right: 3rem;
+    z-index: 1000;
+    cursor: pointer;
+    background-color: rgba(2, 23, 63);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .backToTopButton {
+        bottom: 2rem;
+        opacity: .8;
+        transition: opacity 0.4s;
+    }
+
+    .backToTopButton:hover {
+        opacity: 1;
+    }
+}
