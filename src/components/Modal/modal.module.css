@@ -41,7 +41,7 @@
 
 .tvstream__modal__tag span {
     background-color: rgb(255, 131, 7);
-    color: white;
+    color: var(--white);
     padding: .5rem 1rem;
     border-radius: .4rem;
 }

@@ -1,32 +1,30 @@
-.tvstream__stream__card {
-    color: rgb(0, 0, 0);
+.tvstream__stream__card_top {
+    position: relative;
+    overflow: hidden;
+    border-radius: .4rem;
 }
 
-.tvstream__stream__card:nth-child(5n) {
-    margin-right: 0;
+.tvstream__href {
+    text-decoration: none;
+    color: var(--black);
 }
 
 .tvstream__stream__card img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: .4rem;
-}
-
-.tvstream__stream__card_top {
-    position: relative;
-    overflow: hidden;
-    border-radius: .4rem; 
 }
 
 .tvstream__stream__card_viewer {
     position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
     bottom: 1.4rem;
     left: 1.4rem;
-    background-color: rgba(2, 23, 63, .8);
+    background-color: var(--blueWithOpacity);
     backdrop-filter: blur(16px);
     padding: .5rem 1rem;
-    border-radius: .4rem;
-    color: white;
+    border-radius: .2rem;
+    color: var(--white);
 }
 
 .tvstream__stream__card p {
@@ -53,19 +51,16 @@
 
 .tvstream__stream__card_username {
     font-size: 1.4rem;
-    font-family: 'Roboto', sans-serif;
 }
 
 .tvstream__stream__tag {
     font-size: 1.4rem;
-    font-family: 'Roboto', sans-serif;
-    border-radius: .4rem; 
+    border-radius: .4rem;
     padding: .2rem .4rem;
 }
 
 .tvstream__stream__card_title {
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
 }
 
 .tvstream__stream__card_bottom .tvstream__stream__card_avatar {
@@ -77,7 +72,6 @@
 
 .tvstream__stream__card_thumbnail {
     width: 100%;
-    height: auto;
     transition: transform 0.3s ease;
 }
 
@@ -86,33 +80,28 @@
 }
 
 .tagSASP {
-    background-color: #a18f5f;
+    background-color: var(--sasp);
 }
 
 .tagEMS {
-    background-color: #bd0909;
+    background-color: var(--ems);
 }
 
 .tagFA {
-    background-color: #8d15cf;
+    background-color: var(--fa);
 }
 
 .tagWL {
-    background-color: #004507;
+    background-color: var(--wl);
 }
 
 .baseTagClass {
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: var(--white);
     font-size: 1.2rem;
     padding: .5rem 1rem;
     border-radius: .4rem;
 }
 
-.tvstream__href {
-    text-decoration: none;
-    color: black;
-}
 
 .tvstream__stream__card_tags {
     display: flex;

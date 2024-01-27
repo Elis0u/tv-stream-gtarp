@@ -1,7 +1,7 @@
 .tvstream__counter {
-    background-color: rgba(2, 23, 63, .8);
+    background-color: var(--blueWithOpacity);
     padding: 2rem;
-    border-radius: .5rem;
+    border-radius: .4rem;
     display: flex;
     flex-direction: column;
     gap: .5rem;

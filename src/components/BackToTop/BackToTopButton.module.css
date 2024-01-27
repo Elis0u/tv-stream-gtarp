@@ -4,10 +4,10 @@
     right: 3rem;
     z-index: 1000;
     cursor: pointer;
-    background-color: rgba(2, 23, 63);
-    color: white;
+    background-color: var(--blue);
+    color: var(--white);
     padding: 1rem 2rem;
-    border-radius: .5rem;
+    border-radius: .4rem;
 }
 
 @media screen and (min-width: 768px) {

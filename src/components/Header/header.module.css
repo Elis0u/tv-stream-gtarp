@@ -6,6 +6,7 @@
     backdrop-filter: blur(16px);
     box-shadow: 0px 0px 8px rgba(0,0,0,.6);
     position: relative;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .tvstream__header__content {
@@ -61,7 +62,7 @@ header .tvstream__header__stats {
 
 @media screen and (min-width: 768px) {
     header .tvstream__header__stats {
-        color: white;
+        color: var(--white);
         height: 50px;
         display: flex;
         align-items: center;
