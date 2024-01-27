@@ -1,0 +1,12 @@
+.tvstream__counter {
+    background-color: rgba(2, 23, 63, .8);
+    padding: 2rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.tvstream__counter p{
+    margin: 0;
+}

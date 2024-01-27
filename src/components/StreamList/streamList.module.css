@@ -1,0 +1,50 @@
+.tvstream__streamlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(20% - 20px), 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.tvstream__no_stream {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+@media (min-width: 1921px) {
+    .tvstream__streamlist {
+      grid-template-columns: repeat(6, minmax(calc(16.66% - 20px), 1fr));
+    }
+  }
+
+  @media (max-width: 1920px) and (min-width: 1400px) {
+    .tvstream__streamlist {
+      grid-template-columns: repeat(5, minmax(calc(20% - 20px), 1fr));
+    }
+  }
+
+  @media (max-width: 1399px) and (min-width: 1060px) {
+    .tvstream__streamlist {
+      grid-template-columns: repeat(4, minmax(calc(25% - 20px), 1fr));
+    }
+  }
+
+  @media (max-width: 1059px) and (min-width: 795px) {
+    .tvstream__streamlist {
+      grid-template-columns: repeat(3, minmax(calc(33.33% - 20px), 1fr));
+    }
+  }
+
+  @media (max-width: 794px) {
+    .tvstream__streamlist {
+      grid-template-columns: repeat(2, minmax(calc(50% - 20px), 1fr));
+    }
+  }
+
+  @media (max-width: 510px) {
+    .tvstream__streamlist {
+      grid-template-columns: repeat(1, minmax(100%, 1fr));
+    }
+  }

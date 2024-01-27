@@ -1,11 +1,12 @@
 import '@/index.css'
+import Router from '@router/Index'
 
 function App() {
 
     return (
         <>
             <div>
-                <h1>Dev by Elis0u</h1>
+                <Router />
             </div>
         </>
     )

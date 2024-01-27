@@ -1,0 +1,27 @@
+.tvstream__footer {
+    width: 100%;
+    background-color: rgba(2, 23, 63, .9);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: Roboto, sans-serif;
+}
+
+.tvstream__footer footer {
+    width: 90%;
+    margin: auto;
+}
+
+.tvstream__footer a {
+    color: rgb(255, 131, 7);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tvstream__footer a:hover {
+    text-decoration: underline;
+}
+
+.tvstream__footer p {
+    margin: .5rem 0;
+}
