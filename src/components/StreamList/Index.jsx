@@ -1,5 +1,5 @@
 import React from 'react'
-import Stream from '@components/Stream'
+import Stream from '@components/Stream/Index'
 import style from './streamList.module.css'
 
 function StreamList({ streams }) {

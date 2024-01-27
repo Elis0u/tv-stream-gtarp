@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Counter from '@components/Counter'
-import DateTimeDisplay from '@components/DateTime'
-import Modal from '@components/Modal'
+import Counter from '@components/Counter/Index'
+import DateTimeDisplay from '@components/DateTime/Index'
+import Modal from '@components/Modal/Index'
 import style from './header.module.css'
 import { FaInfoCircle } from 'react-icons/fa'
 

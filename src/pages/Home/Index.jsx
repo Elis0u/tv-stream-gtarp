@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react'
 import { fetchAccessToken, fetchAllStreamsGTA } from '@utils/twitchApi'
-import StreamList from '@components/StreamList'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import SearchBar from '@components/SearchBar'
-import BackToTopButton from '@components/BackToTop'
-import StreamFilter from '@components/StreamFilter'
+import StreamList from '@components/StreamList/Index'
+import Header from '@components/Header/Index'
+import Footer from '@components/Footer/Index'
+import SearchBar from '@components/SearchBar/Index'
+import BackToTopButton from '@components/BackToTop/Index'
+import StreamFilter from '@components/StreamFilter/Index'
 import '@/index.css'
 
 const Home = () => {
